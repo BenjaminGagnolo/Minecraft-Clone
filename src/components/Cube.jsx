@@ -11,7 +11,8 @@ export const Cube = ({ id, position, texture }) => {
     type: 'Static',
     position
   }))
-
+ 
+  
   const activeTexture = textures[texture + 'Texture']
 
   return (

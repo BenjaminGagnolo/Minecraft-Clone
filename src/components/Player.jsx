@@ -23,6 +23,7 @@ export const Player = () => {
     position: [0, 0.5, 0]
   }))
 
+  
   const pos = useRef([0, 0, 0])
   useEffect(() => {
     api.position.subscribe(p => {

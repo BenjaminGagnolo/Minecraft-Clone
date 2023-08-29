@@ -9,7 +9,8 @@ import { TextureSelector } from './components/TextureSelect.jsx'
 
 function App () {
   return (
-    <>
+    <> 
+
       <Canvas>
         <Sky sunPosition={[100, 100, 20]} />
         <ambientLight intensity={0.5} />
@@ -23,7 +24,9 @@ function App () {
       </Canvas>
       <div className='pointer'>+</div>
       <TextureSelector />
+      
     </>
+
   )
 }
 

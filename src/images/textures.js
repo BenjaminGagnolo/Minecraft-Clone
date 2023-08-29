@@ -4,7 +4,7 @@ import {
   logImg,
   glassImg,
   woodImg
-} from './images.js'
+} from './images.js';
 
 import { NearestFilter, RepeatWrapping, TextureLoader } from 'three'
 
